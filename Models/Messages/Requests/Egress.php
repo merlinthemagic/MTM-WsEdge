@@ -5,7 +5,7 @@ namespace MTM\WsEdge\Models\Messages\Requests;
 class Egress extends \MTM\WsEdge\Models\Messages\Base
 {
 	protected $_type="edge-egress-request";
-	protected $_timeout=25000; //0 means dont wait for a response
+	protected $_timeout=60000; //0 means dont wait for a response
 	protected $_txTime=null;
 	protected $_rxData=null;
 	
